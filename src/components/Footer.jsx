@@ -4,19 +4,19 @@ const Footer = () => {
         <hr/>
         <div className="footer-container">
           <p>
-            © {new Date().getFullYear()} Joel's Portfolio
+            © 2022 Muhammad Anas Bakkar Portfolio
           </p>
           <div className="social_icons">
-            <a
+            {/* <a
               href="https://twitter.com/olawanle_joel"
               aria-label="Twitter"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fa-brands fa-twitter"></i>
-            </a>
+            </a> */}
             <a
-              href="https://github.com/olawanlejoel"
+              href="https://github.com/anasbakkar124"
               aria-label="GitHub"
               target="_blank"
               rel="noopener noreferrer"

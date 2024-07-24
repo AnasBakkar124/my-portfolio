@@ -1,10 +1,11 @@
 import Image from "next/image";
-
+import img from '@/components/images//my-img.png';
 const Hero = () => {
 
   return (
     <div className="hero-container">
-      <Image src={'/images/my-img.png'} className="profile-img" width={300} height={300} alt="Muhammad Anas Bakkar personal headshot" />
+      {/* <Image src={'/images/my-img.png'} className="profile-img" width={300} height={300} alt="Muhammad Anas Bakkar personal headshot" /> */}
+      <Image src={img} className="profile-img" width={300} height={300} alt="Muhammad Anas Bakkar personal headshot" />
       <div className="hero-text">
         <h1>Hey, I'm Muhammad Anas Bakkar👋</h1>
         <p>
