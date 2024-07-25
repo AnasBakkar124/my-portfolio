@@ -13,9 +13,11 @@
 // }
 
 
+import { useTranslation } from '@/context';
 import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
+  const { language } = useTranslation();
   return (
     <Html lang="en">
       <Head>
@@ -28,7 +30,7 @@ export default function Document() {
           referrerpolicy="no-referrer"
         />
       </Head>
-      <body>
+      <body style={{ backgroundColor: language === 'en' ? '#1D1E20' : '#ffffff' }}>
       <Main />
       <NextScript />
       </body>
