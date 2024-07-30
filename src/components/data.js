@@ -1,37 +1,44 @@
 export const projectData = [
     {
       id: 1,
-      title: 'Todo List App',
+      title: 'Promptopia',
       description:
-        'A simple Todo List App built with JavaScript. All datas are stored in localstorage. It helps users check list out their plans and tick as they do them.',
-      gitHubLink: 'https://github.com/olawanlejoel/Todo-List-App',
+        'Promptopia is a sophisticated and user-friendly CRUD (Create, Read, Update, Delete) application developed using the latest Next.js 14 framework. Designed with modern best practices in mind, Promptopia offers a seamless user experience, robust performance, and a highly intuitive interface. Whether you are looking to manage data efficiently or seeking a scalable solution for your web application needs,',
+      gitHubLink: 'https://github.com/muhammadanasbakkar/Promptopia',
     },
     {
       id: 2,
-      title: 'Books Library App',
+      title: 'QR Code Generator',
       description:
-        'A simple Book Library App built with JavaScript. It helps readers have a good list of books they are either currently reading or have finished reading.',
+        'The QR Code Generator is a dynamic web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) with the integration of an MSSQL database. This application focuses on generating QR codes based on data retrieved from an API, which is identified by unique IDs provided by the users.',
       gitHubLink: 'https://github.com/olawanlejoel/Book-Library',
     },
     {
       id: 3,
-      title: 'Quotes Generator',
+      title: 'DFA Simulator',
       description:
-        'Helps you generate quotes from about 1600 quotes written by different authors . Quotes are automatically copied to your clipboards.',
-      gitHubLink: 'https://github.com/olawanlejoel/random-quote-generator',
+        'The DFA (Deterministic Finite Automaton) Simulator is an intuitive web application built using React.js. This application allows users to design, simulate, and visualize deterministic finite automata, providing an interactive learning tool for students and professionals studying automata theory and formal languages.',
+      gitHubLink: 'https://github.com/muhammadanasbakkar/DFASimulator',
     },
     {
       id: 4,
-      title: 'Password Generator',
+      title: 'Revamped Fascom Limited Website: Transitioned from .html to React.js',
       description:
-        'Helps you generates random passwords, you can select what you want your password to entail and also you can copy generated password to clipboard.',
-      gitHubLink: 'https://github.com/olawanlejoel/Password-Generator',
+        'The Fascom Limited website has undergone a significant enhancement, transitioning to React.js and integrating Restful APIs. This upgrade not only improves code maintainability and scalability but also enables dynamic content delivery. Users will enjoy a smoother and more interactive experience.      ',
+      gitHubLink: 'https://main.doacup6g541af.amplifyapp.com/',
     },
     {
       id: 5,
-      title: 'Twitter UI Clone',
+      title: 'Transformed ADM Denim Company Website: Migrated from .html to Next.js',
       description:
-        'Simple Twitter UI clone built with TailwindCSS and Vue Js. This covers only the homepage of Twitter UI. This is cool to get started with TailwindCSS as it helps understand basic concepts.',
-      gitHubLink: 'https://github.com/olawanlejoel/TwitterUI-clone',
+        'Enhance the ADM Denim website by optimizing for responsiveness, SEO, and performance. Ensure accessibility and support for multiple languages. Consider state management with Context API, and prioritize testing and error handling. Document the codebase for easier maintenance.',
+      gitHubLink: 'https://admdenim.com/',
+    },
+    {
+      id: 6,
+      title: 'Fiber Management System',
+      description:
+        'Developed a Next.js Fiber Management System: Prioritizing Code Reusability, Optimization, and Comprehensive Testing. Includes RESTful API Integration, Login and Admin Panels, and CRUD Functionality.',
+      gitHubLink: 'https://admdenim.com/',
     },
   ];

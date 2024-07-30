@@ -10,7 +10,7 @@ import { useTranslation } from '@/context';
 
 const Home = () => {
   const { language } = useTranslation();
-  console.log(language, "222")
+  // console.log(language, "222")
   return (
     <>
       <Head>
